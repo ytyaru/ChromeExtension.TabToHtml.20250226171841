@@ -1,0 +1,17 @@
+{
+  "name": "Tab to Html",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "description": "タブのURLとタイトルをHTMLのa要素リストに変換する。",
+  "icons": {
+      "16":"icon.png"
+  },
+  "permissions": [
+    "tabs"
+  ],
+  "browser_action": {
+    "default_title": "Tab to Html",
+    "default_popup": "popup.html"
+  }
+}
+
