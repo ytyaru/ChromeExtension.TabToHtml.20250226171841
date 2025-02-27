@@ -9,16 +9,16 @@
   <table>
     <tr><th>タブ数</th><td id="tab-count"></td></tr>
   </table>
-  <p>タブ一つあたりの書式を任意に指定できます。それをファイルにダウンロードするか、クリップボードにコピーできます。</p>
+  <p>タブ一つあたりの書式を任意に指定できます。</p>
   <label>書式</label>
   <select id="format-type">
     <option value="html">HTML</option>
-    <option value="markdown">Markdown</option>
+    <option value="md">Markdown</option>
     <option value="csv">CSV</option>
     <option value="tsv">TSV</option>
-    <option value="free">自由</option>
+    <option value="txt">TXT</option>
   </select>
-  <textarea id="format" title="コピーする書式を整える" readonly>{{url}},{{title}},{{favIconUrl}}</textarea>
+  <textarea id="format" title="コピーする書式を整える"></textarea>
   <button id="download" title="ファイルとしてダウンロードする">ダウンロード</button>
   <button id="copy" title="クリップボードにコピーする">コピー</button>
   <textarea id="content" title="出力結果です。手動でコピーしてください。" readonly></textarea>
